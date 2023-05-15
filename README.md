@@ -20,15 +20,25 @@ https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 The collected data has been stored in the Comma Separated Value file data.csv. Each patient in the dataset is uniquely identified by their id. Broadly every tumour is classified into its dimensions, ‘radius’, ‘texture’, ‘perimeter’, ‘area’, ‘smoothness’, ‘compactness’, ‘concavity’, ‘concave points’, ‘symmetry’, ‘fractal dimension’. Each of these dimensions are then further divided into three more subcategories, ‘mean’, ‘se’ and ‘worst’ parameters. Every patient id contains the following variables:
 
 • id: Unique id of every patient 
-• diagnosis: Whether the tumour is malignant(M) or benign(B)
-• radius: Radius of the tumour (mean of distances from centre to points on the perimeter)
-• texture: Texture of the tumour (standard deviation of grey-scale values)
-• perimeter: Perimeter of the tumour (perimeter^2 / area - 1.0)
-• area: Area of the tumour
-• smoothness: Smoothness of the tumour (local variation in radius lengths)
-• compactness: Compactness of the tumour
-• concavity: Concavity of the tumour. (Severity of concave portions of the contour)
-• concave points: Concave points of the tumour (number of concave portions of the contour)
-• symmetry: Symmetry of the tumour
-• fractal dimension: Fractal Dimension of the tumor ("coastline approximation" - 1)
 
+• diagnosis: Whether the tumour is malignant(M) or benign(B)
+
+• radius: Radius of the tumour (mean of distances from centre to points on the perimeter)
+
+• texture: Texture of the tumour (standard deviation of grey-scale values)
+
+• perimeter: Perimeter of the tumour (perimeter^2 / area - 1.0)
+
+• area: Area of the tumour
+
+• smoothness: Smoothness of the tumour (local variation in radius lengths)
+
+• compactness: Compactness of the tumour
+
+• concavity: Concavity of the tumour. (Severity of concave portions of the contour)
+
+• concave points: Concave points of the tumour (number of concave portions of the contour)
+
+• symmetry: Symmetry of the tumour
+
+• fractal dimension: Fractal Dimension of the tumor ("coastline approximation" - 1)
