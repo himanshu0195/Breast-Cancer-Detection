@@ -42,3 +42,23 @@ The collected data has been stored in the Comma Separated Value file data.csv. E
 • symmetry: Symmetry of the tumour
 
 • fractal dimension: Fractal Dimension of the tumor ("coastline approximation" - 1)
+
+## Final Inferences
+
+This work demonstrates the modelling of breast cancer as classification task using Support Vector Machine
+
+The SVM performs better when the dataset is standardized so that all attributes have a mean value of zero and a standard deviation of one. We can calculate this from the entire training dataset and apply the same transform to the input attributes from the validation dataset.
+
+1.	We achieved an accuracy of 93% using the Support Vector Machine
+3.	After plotting the confusion matrix, we got the following information.
+•	The classifier made a total of 174 predictions (i.e., 174 patients were being tested for the presence breast cancer).
+•	Out of those 174 cases, the classifier predicted "yes" 43 times, and "no" 128 times.
+•	In reality, 55 patients in the sample have the disease, and 116 patients do not.
+3.	We plotted the ROC - AUC Curve for our model and then found out the AUC value. It came out to be 0.97, which is good because our model has a good classification value.
+4.	I have tried to evaluate some other classifiers such as Decision Tree, Naive Bayes and SVM, using 10-fold cross validation technique.
+•	KNN has 93.72% accuracy.
+•	Decision Tree has 92% accuracy.
+•	Naive Bayes has 93.71 % accuracy almost the same as KNN.
+•	SVM has 90% accuracy.
+5.	KNN and Naive Bayes have the same accuracy as SVM which is around 93%.
+
